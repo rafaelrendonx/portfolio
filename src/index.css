@@ -1,0 +1,27 @@
+.custom-nav {
+  z-index: 1;
+  background-color: #90d7ff;
+  position: fixed;
+  width: 100%;
+}
+
+.lado-izquierdo {
+  height: 100%;
+  position: fixed;
+  background-color: #7776bc;
+  padding-top: 8rem;
+  color: white;
+}
+
+.lado-derecho {
+  background-color: #542344;
+  padding-top: 8rem;
+  padding-left: 18rem;
+  padding-right: 1rem;
+  color: white;
+  height: 100%;
+}
+
+.card-text {
+  color: black;
+}
