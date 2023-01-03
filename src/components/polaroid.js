@@ -43,9 +43,9 @@ export default function Polaroid() {
                     return (
                         <div className="item">
 
-                            <div className="polaroid">
-                                <img src={link.imagen} target="_blank" href={link.link} /> <a target="_blank" href={link.link}></a>
-                                <div className="caption">{link.nombre}</div>
+                            <div className="polaroid border">
+                                <img src={link.imagen} target="_blank" href={link.link} className='border'/> <a target="_blank" href={link.link}></a>
+                                <div className="">{link.nombre}</div>
                             </div>
                         </div>
                     );
