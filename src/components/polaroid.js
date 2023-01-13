@@ -36,16 +36,16 @@ const links = [
 export default function Polaroid() {
     return (
         <>
-            <h1 className='text-white bg-black text-center p-3'>Proyectos</h1>
-            <div className="wrapper">
+            <h1 className='display-4 fw-bold lh-1 py-3 text-center text-white bg-black' id='Projects'>Projects</h1>
+            <div className="py-4 row wrapper">
 
                 {links.map((link) => {
                     return (
-                        <div className="item">
+                        <div className="col-6 item">
 
                             <div className="polaroid border">
-                                <img src={link.imagen} target="_blank" href={link.link} className='border'/> <a target="_blank" href={link.link}></a>
-                                <div className="">{link.nombre}</div>
+                                <img src={link.imagen} target="_blank" className='border'/>
+                                <a className='caption' href={link.link}>{link.nombre}</a>
                             </div>
                         </div>
                     );
